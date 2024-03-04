@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head')%>
+    <title> <% title%> </title>
+    <style>
+        #card {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background-color: #f0f0f0; 
+        }
+       
+
+        #center-content {
+            flex: 2;
+            max-width: 60%;
+            align-items: center;
+            margin: 20px;
+            margin-top: -300px;
+            padding: 20px;
+            background-color: #4a2fc2;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-content {
+            line-height: 1.6;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <%- include('partials/navbar')%>
+    </div>
+    <div id="card">
+        
+        <div id="center-content">
+            <h1>Bienbenido a mi pasteleria!!</h1>
+            <p>Aqui podra encontrar todo tipo de pasteles todo weno</p>
+        </div>
+        
+</div>
+</body>
+</html>
